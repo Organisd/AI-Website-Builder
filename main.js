@@ -35,7 +35,7 @@ gen.addEventListener("click",async function() {
     
     model = new Gemini({
         model: "gemini-1.5-pro",
-        key: "AIzaSyBfiU1QXHS7GPSH6D1iOWXcmCy2aZt9v2Y",
+        key: "GEMINI_API_KEY",
         sys: system.value,
         temp: temp.value,
         topP: top_p.value,
